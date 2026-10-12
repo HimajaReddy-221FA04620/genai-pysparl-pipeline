@@ -216,5 +216,11 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+# Generated pipeline data (keep directory placeholders)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
 # Streamlit
 .streamlit/secrets.toml
